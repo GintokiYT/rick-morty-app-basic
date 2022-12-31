@@ -1,0 +1,39 @@
+.header {
+  background: linear-gradient(
+                rgba(52, 86, 61, 0.5), 
+                rgba(2, 15, 22, 0.65)), url(../../public/assets/bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+}
+
+.content > * {
+  padding: 0 10px;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: var(--fuentePrincipal);
+  font-weight: 900;
+  color: #82bf45;
+  font-size: var(--step-5);
+}
+
+.text {
+  color: #17A3AC;
+  font-size: var(--step-1);
+  font-family: var(--fuentePrincipal);
+  text-align: center;
+}
